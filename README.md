@@ -1,10 +1,14 @@
 # An Effective Partitioning Approach for Competitive Spatial-Temporal Searching (GIS Cup)
 
+## Description
+
+This is a submittion called STP to 2019 SIGSPATIAL GIS CUP.
+
 ## COMSET
 
-This project provides the COMSET simulator described in the <a href="https://sigspatial2019.sigspatial.org/giscup2019/problem"> 2019 GISCUP Problem Definition</a>. COMSET simulates crowdsourced taxicabs (called <i>agents</i>) searching for customers (called <i>resources</i>) to pick up in a city. 
+This project provides the COMSET simulator described in the <a href="https://sigspatial2019.sigspatial.org/giscup2019/problem"> 2019 SIGSPATIAL GIS CUP</a>. COMSET simulates crowdsourced taxicabs (called <i>agents</i>) searching for customers (called <i>resources</i>) to pick up in a city. 
 
-## Overall Logic
+## Solution Overview
 
 The UserExamples.AgentOurSolution is our solution implemented COMSETsystem.BaseAgent and the UserExamples.IntellgentDataModel is a data model that represents resource availability pattern to help agent search for resource. The overall logic of our solution is as follow:
 1. We take 7 days from the historical data for K-means clustering, and then divide each intersection and road into the nearest cluster center. Thus each cluster forms a spatial zone.
@@ -37,9 +41,8 @@ With the configuration file coming up with the system, the above command will ru
 
 Note the results of each run may change due to different clustering results.
 
-## Contributors
-- Hu Qi: qihu11@hust.edu.cn
-- Ming Lingfeng: lingfengming@hust.edu.cn
-- Tong Chengdong: chengdongtong@hust.edu.cn
-- Zheng Bolong: bolongzheng@hust.edu.cn
+## Citing
+
+Please cite our paper if you choose to use our code.
+
 
