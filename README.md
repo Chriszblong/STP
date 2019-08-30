@@ -4,10 +4,6 @@
 
 This is a submittion called STP to 2019 SIGSPATIAL GIS CUP.
 
-## COMSET
-
-This project provides the COMSET simulator described in the <a href="https://sigspatial2019.sigspatial.org/giscup2019/problem"> 2019 SIGSPATIAL GIS CUP</a>. COMSET simulates crowdsourced taxicabs (called <i>agents</i>) searching for customers (called <i>resources</i>) to pick up in a city. 
-
 ## Solution Overview
 
 The UserExamples.AgentOurSolution is our solution implemented COMSETsystem.BaseAgent and the UserExamples.IntellgentDataModel is a data model that represents resource availability pattern to help agent search for resource. The overall logic of our solution is as follow:
@@ -17,7 +13,9 @@ The UserExamples.AgentOurSolution is our solution implemented COMSETsystem.BaseA
 
 ## Installing, building, and running STP
 
-To install COMSET, unzip COMSET.zip, which includes our source code and all dependencies.
+COMSET is a simulator described in the <a href="https://sigspatial2019.sigspatial.org/giscup2019/problem"> 2019 SIGSPATIAL GIS CUP</a>. COMSET simulates crowdsourced taxicabs (called <i>agents</i>) searching for customers (called <i>resources</i>) to pick up in a city. 
+
+To install , unzip COMSET.zip, which includes our source code and all dependencies.
 
 The main class is Main. The configurable system parameters are defined in etc/config.properties.
 Besides, there are some configurable system parameters that need to be adjusted. Before building the project, it's necessary to download the training dataset and set mysolution.training_dataset to point to it. 
