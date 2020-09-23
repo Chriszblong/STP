@@ -43,4 +43,15 @@ Note the results of each run may change due to different clustering results.
 
 Please cite our paper if you choose to use our code.
 
-
+@inproceedings{DBLP:conf/gis/HuMTZ19,
+  author    = {Qi Hu and
+               Lingfeng Ming and
+               Chengdong Tong and
+               Bolong Zheng},
+  title     = {An Effective Partitioning Approach for Competitive Spatial-Temporal
+               Searching {(GIS} Cup)},
+  booktitle = {{SIGSPATIAL/GIS}},
+  pages     = {620--623},
+  publisher = {{ACM}},
+  year      = {2019}
+}
